@@ -5,10 +5,10 @@ import (
 	"math"
 )
 
-func init() {
-	fmt.Println(int(math.Floor(float64(3 / 2))))
-	fmt.Println(getMaximumGenerated(0))
-}
+// func init() {
+// 	fmt.Println(int(math.Floor(float64(3 / 2))))
+// 	fmt.Println(getMaximumGenerated(0))
+// }
 func getMaximumGenerated(n int) int {
 	if n <= 1 {
 		return n
