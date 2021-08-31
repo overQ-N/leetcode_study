@@ -1,19 +1,15 @@
 package dp
 
-import (
-	"fmt"
-)
+// func init() {
+// 	expect1 := rob2([]int{1, 2, 3})
+// 	fmt.Printf("预期结果：3，输出:%v\n", expect1)
 
-func init() {
-	expect1 := rob2([]int{1, 2, 3})
-	fmt.Printf("预期结果：3，输出:%v\n", expect1)
+// 	expect2 := rob2([]int{2, 3, 2})
+// 	fmt.Printf("预期结果：3，输出:%v\n", expect2)
 
-	expect2 := rob2([]int{2, 3, 2})
-	fmt.Printf("预期结果：3，输出:%v\n", expect2)
-
-	expect3 := rob2([]int{2, 1, 1, 2})
-	fmt.Printf("预期结果：3，输出:%v\n", expect3)
-}
+// 	expect3 := rob2([]int{2, 1, 1, 2})
+// 	fmt.Printf("预期结果：3，输出:%v\n", expect3)
+// }
 
 func rob2(nums []int) int {
 	length := len(nums)
