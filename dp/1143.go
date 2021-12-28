@@ -35,7 +35,7 @@ func longestCommonSubsequence(text1 string, text2 string) int {
 }
 
 // 暴力破解法
-func longestCommonSubsequence1(text1 string, text2 string) int {
+/* func longestCommonSubsequence1(text1 string, text2 string) int {
 	var dp func(x, y int) int
 	dp = func(i int, j int) int {
 		if i == -1 || j == -1 {
@@ -49,4 +49,4 @@ func longestCommonSubsequence1(text1 string, text2 string) int {
 	}
 
 	return dp(len(text1)-1, len(text2)-1)
-}
+} */
