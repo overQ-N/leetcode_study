@@ -1,4 +1,4 @@
-package stuct
+package datastruct
 
 // 循环队列
 type MyCircularQueue struct {

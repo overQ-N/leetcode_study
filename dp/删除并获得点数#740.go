@@ -3,6 +3,7 @@ package dp
 import "fmt"
 
 func init() {
+	return
 	expect1 := deleteAndEarn([]int{3, 4, 2})
 	fmt.Printf("期待值6，输出值:%v", expect1)
 	expect2 := deleteAndEarn([]int{2, 2, 3, 3, 3, 4})
