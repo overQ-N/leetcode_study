@@ -1,5 +1,6 @@
-package main
+package serialize_and_deserialize_BST
 
+// 449.序列化和反序列化二叉搜索树
 import (
 	"strconv"
 	"strings"

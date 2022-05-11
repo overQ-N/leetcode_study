@@ -1,4 +1,4 @@
-package main
+package serialize_and_deserialize_BST
 
 import (
 	"reflect"
